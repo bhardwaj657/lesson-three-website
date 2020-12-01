@@ -6,28 +6,59 @@
     <title>Component library</title>
 </head>
 <body>
-    <h1>tanay's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my project look good and consistent </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is second biggest</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph</p>
-    <small>This is relatively smaller text </small>
-
-    <hr>
-
-    <h2>@continer</h2>
-    <h3>fluid container </h3>
-    <div>This is a fluid container and it will go till the end of the page </div>
-    <h3>center container</h3>
-    <div>This is centered container and it will go till the specified width</div>
-    <hr>
-    <h2>@Links</h2>
-    <a href="/">Primary Links </a>
-    <a href="/">Secondary Links</a>
-    
+  
+    <nav class="navigation container">
+        <div class="nav-brand">iAmDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blog</a>
+            </li>
+        </ul>
+    </nav> 
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading">Shubham Bhardwaj The <span class="heading-inverted">Web Developer</span> </h1>
+    </header>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>Technology</h3>
+            <p>I am fimiliar with some technology like HTML,CSS3,Git,Javascript,Web Hosting,Node.js which i learnt from Tanay sir in <strong>NEOG.CAMP</strong> </p>
+        </div>
+    </section>
+    <section class="section ">
+        <div class="container container-center">
+            <h3>Projects</h3>
+            <p>I would like to showcase my projects that i have made for the entry in levelone. I am glad to share that i have hosted all my projects on my website even on my Github account. </p>
+            <a class="link link-primary" href="/">See Project</a>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>Blogs</h3>
+            <p>I am also working on some technical and non techncal blogs where i will share my experience about how I learnt about coding and programming through the bootcamp of NEOG.CAMP </p>
+            <a class="link link-primary" href="/">Read Blogs</a>
+        </div>
+    </section>
+    <footer class="footer container">
+        <div class="footer-header"> Social media presence  </div>
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline">
+                    <a class="link" href="/"> github</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link " href="/"> twitter</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/"> linkedin</a>
+                </li>
+            </ul>
+     
+    </footer>
 </body>
 </html>
